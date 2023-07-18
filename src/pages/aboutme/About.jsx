@@ -19,7 +19,7 @@ export const About = () => {
                 ABOUT ME
               </h1>
             </div>
-            <div className="w-3/6 mt-4 py-1 bg-[#232a3f] rounded-lg"></div>
+            <div className="w-3/6 mt-4 py-0.5 bg-[#232a3f] rounded-lg"></div>
             <div className="flex h-full">
               <div className="h-full flex">
                 <div className="flex flex-col justify-around">
