@@ -1,9 +1,13 @@
+import { Header } from "./common/header/header";
 import { AppRouter } from "./routes/AppRouter";
 
 
 const App = () => {
   return (
-    <AppRouter />
+    <>
+      <Header/>
+      <AppRouter />
+    </>
   );
 }
 
