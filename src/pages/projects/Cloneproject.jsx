@@ -1,20 +1,20 @@
 import { Icon } from "@iconify/react";
-import { NFT } from "../../common/images";
+import { Clone } from "../../common/images";
 
 export const Cloneproject = () => {
     return (
         <>
-            <div className="mt-16 w-full h-[500px] bg-white rounded-lg shadow-lg px-6 py-6 flex">
+            <div className="mt-16 w-full h-[500px] bg-[#232a3f] rounded-lg shadow-lg px-6 py-6 flex">
             <div className="border w-2/5">
-            <img src={NFT} alt="NFT" className='w-full h-full object-cover hover:scale-105 transition-transform duration-300 rounded-lg' />
+            <img src={Clone} alt="NFT" className='w-full h-full object-cover hover:scale-105 transition-transform duration-300 rounded-lg' />
 
             </div>
-            <div className="w-3/5 flex flex-col px-3 py-3">
-              <h1 className="font-bold text-5xl">기업협약 프로젝트</h1>
+            <div className="w-3/5 flex flex-col px-3 py-3 text-[#8f98b3]">
+              <h1 className="font-bold text-5xl text-white">클론코딩 프로젝트</h1>
               <div className="w-full pt-6 flex">
                 <div className="w-1/2 text-md flex flex-col pr-2">
                   <div>
-                    <span className="font-bold pr-1">
+                    <span className="font-bold pr-1 text-white">
                       OpenSea, Blur 등 NFT 마켓 플레이스 서비스를 개발하는
                       프로젝입니다.
                     </span>

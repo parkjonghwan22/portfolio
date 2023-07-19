@@ -6,3 +6,6 @@ export { default as React } from './React.png';
 export { default as Tailwind } from './Tailwind.png';
 export { default as Typescript } from './Typescript.png';
 export { default as NFT } from './NFT.png';
+export { default as GptMusic } from './GptMusic.png';
+export { default as Nodephl } from './Nodephl.png';
+export { default as Clone } from './Clone.png';
