@@ -5,3 +5,4 @@ export { default as NextJS } from './NextJS.png';
 export { default as React } from './React.png';
 export { default as Tailwind } from './Tailwind.png';
 export { default as Typescript } from './Typescript.png';
+export { default as NFT } from './NFT.png';

@@ -3,13 +3,13 @@ import { Html, Css, Javascript, React, NextJS, Typescript, Tailwind } from "../.
 export const Skill = () => {
   return (
     <>
-      <div className="h-[900px] bg-[#3a5a69]">
+      <div className="h-[900px] bg-[#232a3f]">
         <div className="w-3/5 mx-auto h-full">
           <h1 className="text-6xl font-bold text-center pt-10 text-white">
             SKILLS
           </h1>
           <div className="w-20 py-0.5 bg-white mx-auto mt-8 rounded-lg"></div>
-          <div className="mt-10 w-full h-40 rounded-lg flex">
+          <div className="mt-10 h-40 rounded-lg flex">
             <img src={Html} alt="Html" className='w-32 h-32 mr-4 object-cover hover:scale-110 transition-transform duration-300' />
             <img src={Css} alt="Css" className='w-32 h-32 mr-4 object-cover hover:scale-110 transition-transform duration-300' />
             <img src={Javascript} alt="Javascript" className='w-32 h-32 mr-4 object-cover hover:scale-110 transition-transform duration-300' />
