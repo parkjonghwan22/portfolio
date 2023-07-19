@@ -10,7 +10,7 @@ export const Musicproject = () => {
 
             </div>
             <div className="w-3/5 flex flex-col px-3 py-3 text-[#8f98b3]">
-              <h1 className="font-bold text-5xl text-white">GptMusic 프로젝트</h1>
+              <h1 className="font-bold text-5xl text-white">GptMusic</h1>
               <div className="w-full pt-6 flex">
                 <div className="w-1/2 text-md flex flex-col pr-2">
                   <div>

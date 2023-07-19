@@ -10,13 +10,13 @@ export const NFTproject = () => {
 
             </div>
             <div className="w-3/5 flex flex-col px-3 py-3 text-[#8f98b3]">
-              <h1 className="font-bold text-5xl text-white">기업협약 프로젝트</h1>
+              <h1 className="font-bold text-5xl text-white">NFT 마켓 플레이스</h1>
               <div className="w-full pt-6 flex">
                 <div className="w-1/2 text-md flex flex-col pr-2">
                   <div>
                     <span className="font-bold pr-1 text-white">
                       OpenSea, Blur 등 NFT 마켓 플레이스 서비스를 개발하는
-                      프로젝입니다.
+                      기업협약 프로젝트입니다.
                     </span>
                   </div>
                   <div className="pt-4">
