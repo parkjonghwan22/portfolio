@@ -9,12 +9,12 @@ export const Header = () => {
     return (
     <>
       <nav className={`bg-black border-gray-200 px-4 lg:px-6 py-5 mx-auto fixed top-0 left-0 right-0 z-10 ${!isScrolling ? 'bg-[#232a3f]' : 'bg-black opacity-60'}`}>
-        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl w-3/5">
+        <div class="flex flex-wrap lg:justify-between justify-center items-center mx-auto  max-w-screen-xl w-3/5">
           <a
             href="https://parkjonghwan22.github.io/portfolio/"
-            class="flex items-center"
+            class="flex items-center "
           >
-            <span class="self-center text-2xl font-bold whitespace-nowrap text-white">
+            <span class="text-2xl font-bold text-white">
               Jerry's Portfolio
             </span>
           </a>
