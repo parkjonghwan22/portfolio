@@ -3,7 +3,7 @@ export const Introduce = () => {
     return (
         <>
             <div className="mx-auto bg-[#232a3f] lg:h-[500px]">
-                <div className="w-full lg:w-3/5 h-full mx-auto mt-40">
+                <div className="w-full lg:w-3/5 h-full mx-auto mt-48">
                     <div className="flex flex-col text-center h-full">
                         <h1 className="font-bold text-6xl text-white">'박종환'</h1>
                         <div className="pt-6 flex flex-col lg:flex-row lg:mx-auto">
