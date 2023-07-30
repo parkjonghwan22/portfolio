@@ -9,7 +9,7 @@ export const PHLproject = () => {
           <img
             src={phl}
             alt="phl"
-            className="w-full h-full hover:scale-105 transition-transform duration-300"
+            className="w-[450px] h-[320px] lg:w-full lg:h-full hover:scale-105 transition-transform duration-300"
           />
         </div>
         <div className="w-full text-center pt-8 lg:w-3/5 flex flex-col lg:pl-5 lg:py-3 text-[#8f98b3]">
