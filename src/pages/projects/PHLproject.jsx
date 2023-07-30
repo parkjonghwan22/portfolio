@@ -1,113 +1,64 @@
 import { Icon } from "@iconify/react";
-import { Nodephl } from "../../common/images";
+import { NFT } from "../../common/images";
 
 export const PHLproject = () => {
-    return (
-        <>
-            <div className="mt-16 w-full h-[500px] bg-[#232a3f] rounded-lg shadow-lg px-6 py-6 flex">
-            <div className="border w-2/5">
-            <img src={Nodephl} alt="NFT" className='w-full h-full object-cover hover:scale-105 transition-transform duration-300 rounded-lg' />
-
+  return (
+    <>
+      <div className="mt-16 w-full lg:h-[500px] bg-[#232a3f] rounded-lg shadow-lg px-6 py-6 flex lg:flex-wrap flex-col">
+        <div className="lg:w-2/5 lg:h-full">
+          <img
+            src={NFT}
+            alt="NFT"
+            className="w-full h-full hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+        <div className="w-full text-center pt-8 lg:w-3/5 flex flex-col lg:pl-5 lg:py-3 text-[#8f98b3]">
+          <h1 className="font-bold lg:text-5xl text-4xl text-white">요리 커뮤니티</h1>
+          <div className="w-full pt-6 flex flex-col">
+            <div className="w-full text-md flex">
+              <div>
+                <span className="font-bold text-white inline-block">
+                이 프로젝트는 끊임없이 소통하며 요리에 대한 정보를 공유할 수 있는 참여형 요리 커뮤니티를 구축하는 프로젝트로, 사용자들 간의 자유로운 소통과 정보 교류를 위해 기획되었습니다.                </span>
+                <br />
+                <span className="pt-2 hidden lg:inline-block">
+                요리 커뮤니티 웹사이트를 개발함으로써, 사용자 인터페이스를 고려한 전반적인 디자인을 구축하였습니다. 게시판과 댓글에 대한 CRUD 기능을 구현하여, 사용자들이 게시물을 작성하고 상호간의 소통을 원활하게 할 수 있는 환경을 조성하였습니다.
+                </span>
+                <br />
+                <span className="pt-2 hidden lg:inline-block">
+                  처음으로 접하는 3주 가량의 프로젝트였으며 이 기간은 저에게 설계와 협업에 대한 소중한 기회를 선사했습니다.
+                  팀 내에서 밝은 분위기와 원활한 소통을 위해 중간에서 징검다리 역할을 수행하였습니다.
+                  또한 사용자들이 편리하고 즐겁게 정보를 공유하는 플랫폼을 개발함으로써, 사람들의 요리 관심사를 결집시키는 즐거움을 
+                  느낄 수 있었습니다.
+                </span>
+              </div>
             </div>
-            <div className="w-3/5 flex flex-col px-3 py-3 text-[#8f98b3]">
-              <h1 className="font-bold text-5xl text-white">요리 커뮤니티</h1>
-              <div className="w-full pt-6 flex">
-                <div className="w-1/2 text-md flex flex-col pr-2">
-                  <div>
-                    <span className="font-bold pr-1 text-white">
-                      OpenSea, Blur 등 NFT 마켓 플레이스 서비스를 개발하는
-                      프로젝입니다.
-                    </span>
-                  </div>
-                  <div className="pt-4">
-                    <span>
-                      token 의 일도 몰랐던 제가 교육을 받은 후 처음으로 만드는
-                      블록체인 프로젝트였기에 뜻깊은 마음으로 개발에 임했습니다.
-                    </span>
-                  </div>
-                  <div className="pt-4">
-                    <span>
-                      처음 Tailwind CSS 접해보았습니다. 사용하는데 있어 초기
-                      어려움을 겪었지만 현업에서 많이 사용하는 tailwind 를
-                      배우고 경험할 수 있어서 좋았습니다.{" "}
-                    </span>
-                  </div>
-                  <div className="pt-4">
-                    <span>
-                      또한 반응형과 다크모드를 처음 시도해보면서 어떤 구조로
-                      만들어야하는지 감을 찾는 기회가 되었습니다.
-                    </span>
-                  </div>
+            <div className="w-full py-0.5 bg-[#E6A15C] mt-2 hidden lg:block lg:mt-4"></div>
+            <div className="pt-2 w-full lg:text-left hidden lg:block">
+              <div className="flex w-full">
+                <div className="w-1/5 flex">
+                <Icon icon="mingcute:check-2-fill" className="w-5 h-5" />
+                <span className="pl-2 text-lg font-bold">주요기능</span>
                 </div>
-                <div className="h-full px-0.5 bg-[#E6A15C]"></div>
-                <div className="w-1/2 pl-2 flex">
-                  <div className="flex flex-col w-full pt-2">
-                    <div className="flex">
-                      <div className="w-2/5 flex">
-                        <Icon
-                          icon="mingcute:check-2-fill"
-                          className="w-6 h-6"
-                        />
-                        <span className="pl-2 text-lg font-bold">주요기능</span>
-                      </div>
-                      <div className="w-3/5">
-                        런치패드 기능, NFT 민팅, Collection 조회, Airdrop 기능,
-                        Cart 기능, Sweep 기능, Eden AI 를 이용한 민팅기능
-                      </div>
-                    </div>
-                    <div className="flex pt-4">
-                      <div className="w-2/5 flex">
-                        <Icon
-                          icon="mingcute:check-2-fill"
-                          className="w-6 h-6"
-                        />
-                        <span className="pl-2 text-lg font-bold">GitHub</span>
-                      </div>
-                      <div className="w-3/5 break-all">
-                      https://github.com/parkjonghwan22/rooftop-front.git
-                      </div>
-                    </div>
-                    <div className="flex pt-4">
-                      <div className="w-2/5 flex">
-                        <Icon
-                          icon="mingcute:check-2-fill"
-                          className="w-6 h-6"
-                        />
-                        <span className="pl-2 text-lg font-bold">URL</span>
-                      </div>
-                      <div className="w-3/5 break-all pt-1">
-                        https://roof-top.shop
-                      </div>
-                    </div>
-                    <div className="flex pt-4">
-                      <div className="w-2/5 flex">
-                        <Icon
-                          icon="mingcute:check-2-fill"
-                          className="w-6 h-6"
-                        />
-                        <span className="pl-2 text-lg font-bold">FrontEnd</span>
-                      </div>
-                      <div className="w-3/5 break-all pt-1">
-                        NextJS, TailwindCSS
-                      </div>
-                    </div>
-                    <div className="flex pt-4">
-                      <div className="w-2/5 flex">
-                        <Icon
-                          icon="mingcute:check-2-fill"
-                          className="w-6 h-6"
-                        />
-                        <span className="pl-2 text-lg font-bold">BackEnd</span>
-                      </div>
-                      <div className="w-3/5 break-all pt-1">
-                        NestJS, MongoDB
-                      </div>
-                    </div>
-                  </div>
+                <span className="pl-2 w-4/5">회원가입기능, 로그인/로그아웃 기능, 게시판 기능, 피아노 기능, 악보생성 기능, 악보재생 기능</span>
+              </div>
+              <div className="flex w-full">
+                <div className="w-1/5 flex">
+                <Icon icon="mingcute:check-2-fill" className="w-5 h-5" />
+                <span className="pl-2 text-lg font-bold">URL</span>
                 </div>
+                <span className="pl-2 w-4/5"><a href="https://roof-top.shop">https://jjerry.store</a></span>
+              </div>
+              <div className="flex w-full">
+                <div className="w-1/5 flex">
+                <Icon icon="mingcute:check-2-fill" className="w-5 h-5" />
+                <span className="pl-2 text-lg font-bold">Stack</span>
+                </div>
+                <span className="pl-2 w-4/5">React | TypeScript | NodeJS | MySQL</span>
               </div>
             </div>
           </div>
-        </>
-    )
-}
+        </div>
+      </div>
+    </>
+  );
+};
