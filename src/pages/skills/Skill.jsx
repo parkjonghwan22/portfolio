@@ -3,9 +3,9 @@ import { Html, Css, Javascript, React, NextJS, Typescript, Tailwind, NodeJS, Nes
 export const Skill = () => {
   return (
     <>
-      <div className="w-full h-[1000px] bg-[#232a3f]">
+      <div className="w-full h-full bg-[#232a3f]">
         <div className="w-full lg:w-3/5 mx-auto h-full">
-          <h1 className="text-6xl font-bold text-center pt-10 text-white">
+          <h1 className="text-6xl font-bold text-center pt-24 text-white">
             SKILLS
           </h1>
           <div className="w-20 py-0.5 bg-white mx-auto mt-8 rounded-lg"></div>
@@ -27,7 +27,7 @@ export const Skill = () => {
                 <img src={MongoDB} alt="React" className='lg:w-32 lg:h-32 w-24 h-24 mx-2 my-2 object-cover hover:scale-110 transition-transform duration-300' />
           </div>
           <div className="text-white font-bold text-3xl mt-12 text-center">Etc</div>
-          <div className="mt-6 flex flex-wrap  justify-center">
+          <div className="mt-6 flex flex-wrap  justify-center pb-24">
                 <img src={EC2} alt="Html" className='lg:w-32 lg:h-32 w-24 h-24 mx-2 my-2 object-cover hover:scale-110 transition-transform duration-300' />
                 <img src={Amplify} alt="Css" className='lg:w-32 lg:h-32 w-24 h-24 mx-2 my-2 object-cover hover:scale-110 transition-transform duration-300' />
                 <img src={Solidity} alt="Javascript" className='lg:w-32 lg:h-32 mx-2 my-2 h-24 object-cover hover:scale-110 transition-transform duration-300' />
