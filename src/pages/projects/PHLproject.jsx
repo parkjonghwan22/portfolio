@@ -1,5 +1,5 @@
 import { Icon } from "@iconify/react";
-import { NFT } from "../../common/images";
+import { Nodephl } from "../../common/images";
 
 export const PHLproject = () => {
   return (
@@ -7,8 +7,8 @@ export const PHLproject = () => {
       <div className="mt-16 w-full lg:h-[500px] bg-[#232a3f] rounded-lg shadow-lg px-6 py-6 flex lg:flex-wrap flex-col">
         <div className="lg:w-2/5 lg:h-full">
           <img
-            src={NFT}
-            alt="NFT"
+            src={Nodephl}
+            alt="Nodephl"
             className="w-full h-full hover:scale-105 transition-transform duration-300"
           />
         </div>
@@ -32,28 +32,28 @@ export const PHLproject = () => {
                 </span>
               </div>
             </div>
-            <div className="w-full py-0.5 bg-[#E6A15C] mt-2 hidden lg:block lg:mt-4"></div>
+            <div className="w-full py-0.5 bg-[#E6A15C] mt-2 hidden lg:block lg:mt-6"></div>
             <div className="pt-2 w-full lg:text-left hidden lg:block">
               <div className="flex w-full">
                 <div className="w-1/5 flex">
                 <Icon icon="mingcute:check-2-fill" className="w-5 h-5" />
                 <span className="pl-2 text-lg font-bold">주요기능</span>
                 </div>
-                <span className="pl-2 w-4/5">회원가입기능, 로그인/로그아웃 기능, 게시판 기능, 피아노 기능, 악보생성 기능, 악보재생 기능</span>
+                <span className="pl-2 w-4/5">회원가입기능, 로그인/로그아웃 기능, 게시판 기능, 댓글 기능</span>
               </div>
               <div className="flex w-full">
                 <div className="w-1/5 flex">
                 <Icon icon="mingcute:check-2-fill" className="w-5 h-5" />
                 <span className="pl-2 text-lg font-bold">URL</span>
                 </div>
-                <span className="pl-2 w-4/5"><a href="https://roof-top.shop">https://jjerry.store</a></span>
+                <span className="pl-2 w-4/5"><a href="https://roof-top.shop">http://43.200.183.116/</a></span>
               </div>
               <div className="flex w-full">
                 <div className="w-1/5 flex">
                 <Icon icon="mingcute:check-2-fill" className="w-5 h-5" />
                 <span className="pl-2 text-lg font-bold">Stack</span>
                 </div>
-                <span className="pl-2 w-4/5">React | TypeScript | NodeJS | MySQL</span>
+                <span className="pl-2 w-4/5">HTML 5 | CSS | NodeJS | MySQL | Figma | AWS EC2</span>
               </div>
             </div>
           </div>
