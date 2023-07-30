@@ -1,5 +1,5 @@
 import { Icon } from "@iconify/react";
-import { Nodephl } from "../../common/images";
+import { phl } from "../../common/images";
 
 export const PHLproject = () => {
   return (
@@ -7,8 +7,8 @@ export const PHLproject = () => {
       <div className="mt-16 w-full lg:h-[500px] bg-[#232a3f] rounded-lg shadow-lg px-6 py-6 flex lg:flex-wrap flex-col">
         <div className="lg:w-2/5 lg:h-full">
           <img
-            src={Nodephl}
-            alt="Nodephl"
+            src={phl}
+            alt="phl"
             className="w-full h-full hover:scale-105 transition-transform duration-300"
           />
         </div>

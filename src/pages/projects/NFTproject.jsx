@@ -1,5 +1,5 @@
 import { Icon } from "@iconify/react";
-import { NFT } from "../../common/images";
+import { nft } from "../../common/images";
 
 export const NFTproject = () => {
   return (
@@ -7,8 +7,8 @@ export const NFTproject = () => {
       <div className="mt-16 w-full lg:h-[500px] bg-[#232a3f] rounded-lg shadow-lg px-6 py-6 flex lg:flex-wrap flex-col">
         <div className="lg:w-2/5 lg:h-full">
           <img
-            src={NFT}
-            alt="NFT"
+            src={nft}
+            alt="nft"
             className="w-full h-full hover:scale-105 transition-transform duration-300"
           />
         </div>
