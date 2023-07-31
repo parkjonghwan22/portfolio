@@ -2,6 +2,7 @@
 export const Introduce = () => {
     return (
         <>
+        <section id="introduceSection">
             <div className="mx-auto bg-[#232a3f] lg:h-[500px]">
                 <div className="w-full lg:w-3/5 h-full mx-auto mt-48">
                     <div className="flex flex-col text-center h-full">
@@ -22,6 +23,7 @@ export const Introduce = () => {
                     </div>
                 </div>
             </div>
+        </section>
         </>
     )
 }
