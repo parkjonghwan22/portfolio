@@ -5,11 +5,11 @@ export const PHLproject = () => {
   return (
     <>
       <div className="mt-16 w-full lg:h-[500px] bg-[#232a3f] rounded-lg shadow-lg px-6 py-6 flex lg:flex-wrap flex-col">
-        <div className="lg:w-2/5 lg:h-full">
+        <div className="w-full lg:w-2/5 lg:h-full">
           <img
             src={phl}
             alt="phl"
-            className="w-[450px] h-[320px] lg:w-full lg:h-full hover:scale-105 transition-transform duration-300"
+            className="w-full h-[320px] lg:h-full hover:scale-105 transition-transform duration-300"
           />
         </div>
         <div className="w-full text-center pt-8 lg:w-3/5 flex flex-col lg:pl-5 lg:py-3 text-[#8f98b3]">
