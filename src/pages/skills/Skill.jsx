@@ -3,6 +3,7 @@ import { Html, Css, Javascript, React, NextJS, Typescript, Tailwind, NodeJS, Nes
 export const Skill = () => {
   return (
     <>
+    <section id="skillSection">
       <div className="w-full h-full bg-[#232a3f]">
         <div className="w-full lg:w-3/5 mx-auto h-full">
           <h1 className="text-6xl font-bold text-center pt-24 text-white">
@@ -35,6 +36,7 @@ export const Skill = () => {
           </div>  
         </div>
       </div>
+    </section>
     </>
   );
 };

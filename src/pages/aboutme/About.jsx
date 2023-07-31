@@ -4,6 +4,7 @@ import { Icon } from "@iconify/react";
 export const About = () => {
   return (
     <>
+    <section id='aboutMeSection'>
       <div className="mt-8 md:mt-20 h-full w-full lg:h-[500px] bg-[#E6A15C]">
         <div className="lg:w-3/5 lg:mx-auto h-full lg:px-6 py-6 flex flex-col lg:flex-wrap">
           <div className="w-full lg:w-2/5 object-fill overflow-hidden pl-4">
@@ -71,6 +72,7 @@ export const About = () => {
           </div>
         </div>
       </div>
+    </section>
     </>
   );
 };
