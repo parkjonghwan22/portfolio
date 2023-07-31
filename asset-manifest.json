@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9dc30e26.css",
-    "main.js": "/portfolio/static/js/main.d862697b.js",
+    "main.css": "/portfolio/static/css/main.b66fb520.css",
+    "main.js": "/portfolio/static/js/main.58a8ffa8.js",
     "static/js/787.71df535f.chunk.js": "/portfolio/static/js/787.71df535f.chunk.js",
     "static/media/NFT.png": "/portfolio/static/media/NFT.5ef28621d4756312dbc8.png",
     "static/media/PHL.png": "/portfolio/static/media/PHL.8fafbb2ede8d6e5db5f2.png",
@@ -17,12 +17,12 @@
     "static/media/nodejs.png": "/portfolio/static/media/nodejs.601706e938e61e4abbcb.png",
     "static/media/MongoDB.png": "/portfolio/static/media/MongoDB.f4204f1777c7291a7bf6.png",
     "index.html": "/portfolio/index.html",
-    "main.9dc30e26.css.map": "/portfolio/static/css/main.9dc30e26.css.map",
-    "main.d862697b.js.map": "/portfolio/static/js/main.d862697b.js.map",
+    "main.b66fb520.css.map": "/portfolio/static/css/main.b66fb520.css.map",
+    "main.58a8ffa8.js.map": "/portfolio/static/js/main.58a8ffa8.js.map",
     "787.71df535f.chunk.js.map": "/portfolio/static/js/787.71df535f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9dc30e26.css",
-    "static/js/main.d862697b.js"
+    "static/css/main.b66fb520.css",
+    "static/js/main.58a8ffa8.js"
   ]
 }
