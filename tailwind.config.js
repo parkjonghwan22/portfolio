@@ -7,6 +7,7 @@ module.exports = {
       //   'lg': {'min': '1286px', 'max': '1900px'},
       //   'xl': {'min': '1901px'}
       // },
+      // 1870px 까진 안깨짐, 1023px 부터 sm
       extend: {
         backgroundImage: {
           "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

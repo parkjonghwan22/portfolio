@@ -29,14 +29,21 @@ export const Cloneproject = () => {
                 </span>
               </div>
             </div>
-            <div className="w-full py-0.5 bg-[#E6A15C] mt-2 hidden lg:block lg:mt-20"></div>
-            <div className="pt-2 w-full lg:text-left hidden lg:block">
+            <div className="w-full py-0.5 bg-[#E6A15C] my-4 hidden lg:block"></div>
+            <div className="w-full lg:text-left hidden lg:block">
               <div className="flex w-full">
                 <div className="w-1/5 flex">
                 <Icon icon="mingcute:check-2-fill" className="w-5 h-5" />
                 <span className="pl-2 text-lg font-bold">주요기능</span>
                 </div>
                 <span className="pl-2 w-4/5">Tab 기능, 애니메이션 기능, 슬라이드 기능, hover 및 click 이벤트 기능</span>
+              </div>
+              <div className="flex w-full">
+                <div className="w-1/5 flex">
+                <Icon icon="mingcute:check-2-fill" className="w-5 h-5" />
+                <span className="pl-2 text-lg font-bold">맡은담당</span>
+                </div>
+                <span className="pl-2 w-4/5">FrontEnd, Page 모든 기능</span>
               </div>
               <div className="flex w-full">
                 <div className="w-1/5 flex">
