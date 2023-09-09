@@ -47,7 +47,7 @@ export const Musicproject = () => {
                 <Icon icon="mingcute:check-2-fill" className="w-5 h-5" />
                 <span className="pl-2 text-lg font-bold">URL</span>
                 </div>
-                <span className="pl-2 w-4/5"><a href="https://roof-top.shop">https://jjerry.store</a></span>
+                <span className="pl-2 w-4/5"><a href="https://jjerry.store/">https://jjerry.store</a></span>
               </div>
               <div className="flex w-full">
                 <div className="w-1/5 flex">

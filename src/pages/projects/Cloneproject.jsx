@@ -29,7 +29,7 @@ export const Cloneproject = () => {
                 </span>
               </div>
             </div>
-            <div className="w-full py-0.5 bg-[#E6A15C] mt-2 hidden lg:block lg:mt-32"></div>
+            <div className="w-full py-0.5 bg-[#E6A15C] mt-2 hidden lg:block lg:mt-20"></div>
             <div className="pt-2 w-full lg:text-left hidden lg:block">
               <div className="flex w-full">
                 <div className="w-1/5 flex">
@@ -43,7 +43,7 @@ export const Cloneproject = () => {
                 <Icon icon="mingcute:check-2-fill" className="w-5 h-5" />
                 <span className="pl-2 text-lg font-bold">URL</span>
                 </div>
-                <span className="pl-2 w-4/5"><a href="https://roof-top.shop">https://parkjonghwan22.github.io/</a></span>
+                <span className="pl-2 w-4/5"><a href="https://parkjonghwan22.github.io/">https://parkjonghwan22.github.io/</a></span>
               </div>
               <div className="flex w-full">
                 <div className="w-1/5 flex">

@@ -32,7 +32,7 @@ export const PHLproject = () => {
                 </span>
               </div>
             </div>
-            <div className="w-full py-0.5 bg-[#E6A15C] mt-2 hidden lg:block lg:mt-6"></div>
+            <div className="w-full py-0.5 bg-[#E6A15C] mt-2 hidden lg:block"></div>
             <div className="pt-2 w-full lg:text-left hidden lg:block">
               <div className="flex w-full">
                 <div className="w-1/5 flex">
@@ -46,7 +46,7 @@ export const PHLproject = () => {
                 <Icon icon="mingcute:check-2-fill" className="w-5 h-5" />
                 <span className="pl-2 text-lg font-bold">URL</span>
                 </div>
-                <span className="pl-2 w-4/5"><a href="https://roof-top.shop">http://43.200.183.116/</a></span>
+                <span className="pl-2 w-4/5"><a href="http://43.200.183.116/">http://43.200.183.116/</a></span>
               </div>
               <div className="flex w-full">
                 <div className="w-1/5 flex">
