@@ -1,13 +1,11 @@
 module.exports = {
     content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
     theme: {
-      // screens: {
-      //   'sm': {'min': '640px', 'max': '1027px'},
-      //   'md': {'min': '1028px', 'max': '1285px'},
-      //   'lg': {'min': '1286px', 'max': '1900px'},
-      //   'xl': {'min': '1901px'}
-      // },
-      // 1870px 까진 안깨짐, 1023px 부터 sm
+      screens: {
+        'sm': {'min': '390px', 'max': '819px'},
+        'md': {'min': '820px', 'max': '1079px'},
+        'lg': {'min': '1080px'}
+      },
       extend: {
         backgroundImage: {
           "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

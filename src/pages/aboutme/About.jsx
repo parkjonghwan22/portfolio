@@ -5,12 +5,12 @@ export const About = () => {
   return (
     <>
     <section id='aboutMeSection'>
-      <div className="mt-8 md:mt-20 h-full w-full lg:h-[500px] bg-[#E6A15C]">
+      <div className="mt-8 md:mt-20 h-full w-full lg:h-[600px] bg-[#E6A15C]">
         <div className="lg:w-3/5 lg:mx-auto h-full lg:px-6 py-6 flex flex-col lg:flex-wrap">
           <div className="w-full lg:w-2/5 object-fill overflow-hidden pl-4">
-            <img src={picture} alt="About" className="w-3/5 lg:w-auto mx-auto"/>
+            <img src={picture} alt="About" className="w-3/5 lg:w-auto mx-auto rounded-lg"/>
           </div>
-          <div className="lg:w-3/5 flex flex-col mx-auto lg:pl-8 h-full">
+          {/* <div className="lg:w-3/5 flex flex-col mx-auto lg:pl-8 h-full">
             <div className="flex mx-auto mt-2 lg:mx-0">
               <Icon
                 icon="fa6-solid:id-card-clip"
@@ -69,7 +69,7 @@ export const About = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
