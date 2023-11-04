@@ -3,12 +3,12 @@ export const Introduce = () => {
     return (
         <>
         <section id="introduceSection">
-            <div className="mx-auto bg-[#232a3f] lg:h-[500px]">
+            <div className="mx-auto bg-[#232a3f] lg:h-[400px]">
                 <div className="w-full sm:mt-32 md:mt-36 lg:mt-48">
                     <div className="flex flex-col text-center h-full">
                         <h1 className="font-bold sm:text-4xl md:text-5xl lg:text-6xl text-white">'박종환'</h1>
                         <div className="pt-6 flex flex-col lg:flex-row font-bold text-white mx-auto">
-                            <span className="sm:text-4xl md:text-5xl lg:text-6xl">웹 개발자</span>
+                            <span className="sm:text-4xl md:text-5xl lg:text-6xl ">웹 개발자</span>
                             <span className="sm:text-4xl md:text-5xl lg:text-6xl">포트폴리오</span>
                         </div>
                         <div className="w-20 px-8 py-0.5 bg-[#E6A15C] rounded-lg mx-auto sm:mt-10 md:mt-12 lg:mt-16"></div>
