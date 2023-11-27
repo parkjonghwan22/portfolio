@@ -9,7 +9,7 @@ export const Project = () => {
           <h1 className="sm:text-4xl md:text-4xl lg:text-4xl font-bold text-white text-center">
             Projects
           </h1>
-          <div className="w-20 py-0.5 bg-white sm:mt-10 md:mt-12 lg:mt-16 rounded-lg mx-auto"></div>
+          <div className="w-20 py-0.5 bg-[#E6A15C] sm:mt-10 md:mt-12 lg:mt-16 rounded-lg mx-auto"></div>
           <Projectform/>
         </div>
         

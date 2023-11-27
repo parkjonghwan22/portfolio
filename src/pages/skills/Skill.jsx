@@ -9,7 +9,7 @@ export const Skill = () => {
           <h1 className="sm:text-4xl md:text-4xl lg:text-4xl font-bold text-white text-center">
             Skills
           </h1>
-          <div className="w-20 py-0.5 bg-white sm:mt-10 md:mt-12 lg:mt-16 rounded-lg mx-auto"></div>
+          <div className="w-20 py-0.5 bg-[#E6A15C] sm:mt-10 md:mt-12 lg:mt-16 rounded-lg mx-auto"></div>
           <ul className="sm:mt-12 md:mt-16 lg:mt-20 leading-8">
             <li className="sm:mx-6 md:mx-12 lg:mx-16 border-dashed border-b border-[#8f98b3]">
               <div className="flex items-center">
