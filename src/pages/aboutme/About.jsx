@@ -10,7 +10,7 @@ export const About = () => {
           <div className="md:flex lg:flex">
             <img src={picture} alt="About" className="rounded-lg sm:w-full w-2/5"/>
             <div className="sm:pt-4 pt-6 md:pl-12 lg:pl-12">
-              <div className="sm:text-4xl text-5xl sm:font-semibold font-bold sm:pt-4 md:pt-10 lg:pt-11 sm:pb-4 pb-12">박종환</div>
+              <div className="sm:text-4xl text-5xl sm:font-semibold font-bold sm:pt-4 md:pt-11 lg:pt-11 sm:pb-4 pb-12">박종환</div>
               <div className="flex items-center">
                 <Icon icon="ic:outline-email" width="20"/>
                 <span className="sm:ml-3 ml-4 md:text-lg lg:text-lg text-white">parkjonghwan22@gmail.com</span>  
