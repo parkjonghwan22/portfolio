@@ -7,7 +7,7 @@ export const PHLModal = () => {
             <a href='https://github.com/parkjonghwan22/community_node_project'>
                 <Icon icon="jam:github" color='white' className='w-8 h-8 cursor-pointer'/>
             </a>
-            <h1 className="text-[#E6A15C] text-3xl font-semibold ml-2">NodePHL</h1>
+            <h1 className="text-[#E6A15C] text-2xl font-semibold ml-2">NodePHL</h1>
         </div>
         <div className="mt-10 lg:flex">
             <div>

@@ -7,7 +7,7 @@ export const GptModal = () => {
             <a href='https://github.com/parkjonghwan22/project3'>
                 <Icon icon="jam:github" color='white' className='w-8 h-8 cursor-pointer'/>
             </a>
-            <h1 className="text-[#E6A15C] text-3xl font-semibold ml-2">Gpt Music</h1>
+            <h1 className="text-[#E6A15C] text-2xl font-semibold ml-2">Gpt Music</h1>
         </div>
         <div className="mt-10 lg:flex">
             <div>

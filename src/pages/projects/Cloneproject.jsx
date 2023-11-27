@@ -8,7 +8,7 @@ export const CloneModal = () => {
             <a href='https://github.com/parkjonghwan22/parkjonghwan22.github.io'>
                 <Icon icon="jam:github" color='white' className='w-8 h-8 cursor-pointer'/>
             </a>
-            <h1 className="text-[#E6A15C] text-3xl font-semibold ml-2">CloneCoding</h1>
+            <h1 className="text-[#E6A15C] text-2xl font-semibold ml-2">CloneCoding</h1>
         </div>
         <div className="mt-10 lg:flex">
             <div>
