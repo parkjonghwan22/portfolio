@@ -10,7 +10,7 @@ export const Skill = () => {
             Skills
           </h1>
           <div className="w-20 py-0.5 bg-white sm:mt-10 md:mt-12 lg:mt-16 rounded-lg mx-auto"></div>
-          <ul className="sm:mt-12 md:mt-16 lg:mt-20">
+          <ul className="sm:mt-12 md:mt-16 lg:mt-20 leading-8">
             <li className="sm:mx-6 md:mx-12 lg:mx-16 border-dashed border-b border-[#8f98b3]">
               <div className="flex items-center">
                 <img src={Javascript} alt="Javascript" className="sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-24 lg:h-24"/>

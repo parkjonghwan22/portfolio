@@ -1,23 +1,16 @@
-import { Cloneproject } from "./Cloneproject";
-import { Musicproject } from "./Musicproject";
-import { NFTproject } from "./NFTproject";
-import { PHLproject } from "./PHLproject";
+import { Projectform } from "./projectform";
 
 export const Project = () => {
   return (
     <>
     <section id="projectSection">
-
-      <div className="bg-[#1d6a96] min-h-[500px]">
-        <div className="lg:w-3/5 w-full mx-auto h-full px-6 py-6 flex flex-col">
-          <h1 className="text-6xl font-bold text-center pt-10 text-[#fff]">
-            PROJECTS
+      <div className="w-full h-full sm:py-16 md:py-12 lg:py-24">
+        <div className="md:w-4/5 lg:w-3/5 mx-auto h-full">
+          <h1 className="sm:text-4xl md:text-4xl lg:text-4xl font-bold text-white text-center">
+            Projects
           </h1>
-          <div className="w-20 py-0.5 bg-[#fff] mx-auto mt-8 rounded-lg"></div>
-          <NFTproject />
-          <Musicproject />
-          <PHLproject />
-          <Cloneproject />
+          <div className="w-20 py-0.5 bg-white sm:mt-10 md:mt-12 lg:mt-16 rounded-lg mx-auto"></div>
+          <Projectform/>
         </div>
         
       </div>
