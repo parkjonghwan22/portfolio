@@ -11,7 +11,7 @@ export const PHLModal = () => {
         </div>
         <div className="mt-10 lg:flex">
             <div>
-                <img src="https://github.com/parkjonghwan22/community_node_project/assets/118948122/71e25a28-9cb1-498c-951c-41d36c38c936" className="w-full min-w-[400px] sm:h-[300px] lg:h-[400px]"/>
+                <img src="https://github.com/parkjonghwan22/community_node_project/assets/118948122/71e25a28-9cb1-498c-951c-41d36c38c936" className="w-full sm:h-[300px] lg:w-[800px] lg:h-[400px]"/>
                 <div className="sm:pt-4 md:pt-6 lg:pt-8">
                     <div className="text-[#E6A15C] font-bold">Period.</div>
                     <div className="text-white font-medium text-sm sm:mt-2 md:mt-3 lg:mt-4">2023/01/30 - 2023/02/19</div>

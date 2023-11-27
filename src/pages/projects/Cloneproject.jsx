@@ -12,7 +12,7 @@ export const CloneModal = () => {
         </div>
         <div className="mt-10 lg:flex">
             <div>
-                <img src={clone} alt="clone" className="w-full min-w-[400px] sm:h-[300px] lg:h-[400px]"/>
+                <img src={clone} alt="clone" className="w-full sm:h-[300px] lg:h-[400px]"/>
                 <div className="sm:pt-4 md:pt-6 lg:pt-8">
                     <div className="text-[#E6A15C] font-bold">Period.</div>
                     <div className="text-white font-medium text-sm sm:mt-2 md:mt-3 lg:mt-4">2022/11/28 - 2022/12/5</div>
