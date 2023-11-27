@@ -11,10 +11,10 @@ export const NftModal = () => {
         </div>
         <div className="mt-10 lg:flex">
             <div>
-                <img src="https://github.com/nazzzo/rooftop-front/assets/112994137/d1f2ef55-5774-4a70-bde3-c6e108a0e164" className="w-full sm:h-[300px] lg:h-[400px]"/>
+                <img src="https://github.com/nazzzo/rooftop-front/assets/112994137/d1f2ef55-5774-4a70-bde3-c6e108a0e164" className="w-full min-w-[400px] sm:h-[300px] lg:h-[400px]"/>
                 <div className="sm:pt-4 md:pt-6 lg:pt-8">
                     <div className="text-[#E6A15C] font-bold">Period.</div>
-                    <div className="text-white font-medium text-sm sm:mt-2 md:mt-3 lg:mt-4">2022/08/10 - 2022/08/10</div>
+                    <div className="text-white font-medium text-sm sm:mt-2 md:mt-3 lg:mt-4">2023/06/07 - 2023/07/18</div>
                 </div>
             </div>
             <div className='sm:pt-8 md:pt-8 lg:pl-10'>
@@ -28,11 +28,11 @@ export const NftModal = () => {
                 <div className='sm:mt-6 md:mt-8 lg:pt-8'>
                     <div className="text-[#E6A15C] font-bold">Stack.</div>
                     <div className="text-white font-medium sm:mt-2 md:mt-3 lg:mt-4 sm:flex sm:flex-wrap">
-                        <span className='bg-white px-3 py-1 rounded-md text-black font-bold mr-2 mb-2'>Next.js</span>
-                        <span className='bg-cyan-500 px-3 py-1 rounded-md text-black font-bold mr-2 mb-2'>TypeScript</span>
-                        <span className='bg-cyan-100 px-3 py-1 rounded-md text-black font-bold mr-2 mb-2'>TailwindCSS</span>
-                        <span className='bg-red-500 px-3 py-1 rounded-md text-black font-bold mr-2 mb-2'>Nest.jS</span>
-                        <span className='bg-green-300 px-3 py-1 rounded-md text-black font-bold mr-2 mb-2'>MongoDB</span>
+                        <span className='bg-white px-3 py-1 rounded-md text-black font-semibold mr-2 mb-2'>Next.js</span>
+                        <span className='bg-cyan-500 px-3 py-1 rounded-md text-black font-semibold mr-2 mb-2'>TypeScript</span>
+                        <span className='bg-cyan-100 px-3 py-1 rounded-md text-black font-semibold mr-2 mb-2'>TailwindCSS</span>
+                        <span className='bg-red-500 px-3 py-1 rounded-md text-black font-semibold mr-2 mb-2'>Nest.jS</span>
+                        <span className='bg-green-300 px-3 py-1 rounded-md text-black font-semibold mr-2 mb-2'>MongoDB</span>
                     </div>
                 </div>
                 <div className='sm:mt-6 md:mt-8 lg:pt-8'>
