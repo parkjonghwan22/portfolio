@@ -15,7 +15,8 @@ export const Skill = () => {
               <div className="flex items-center">
                 <img src={Javascript} alt="Javascript" className="sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-24 lg:h-24"/>
                 <div className="sm:p-4 md:p-8 lg:p-12">
-                  <span className="text-[#8f98b3] font-semibold sm:text-sm">주언어로서, 프로젝트를 자바스크립트를 이용하여 기능을 구현했습니다.
+                  <span className="text-[#8f98b3] font-semibold sm:text-sm">
+                    주언어로서, 프로젝트를 자바스크립트를 이용하여 기능을 구현했습니다.
                     기본적인 개념 및 문법을 숙지하고 있으며 보다 더 효율적이고 직관적인 코드를 작성하기위해
                     고민하고 학습합니다.
                   </span>
@@ -27,8 +28,8 @@ export const Skill = () => {
                 <img src={Typescript} alt="Typescript" className="sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-24 lg:h-24"/>
                 <div className="sm:p-4 md:p-8 lg:p-12">
                   <span className="text-[#8f98b3] font-semibold sm:text-sm">
-                    타입스크립트의 개념 및 사용목적에 대해 숙지하고 있습니다.
-                    타입스크립트를 이용해 프로젝트를 진행한 적이 있으며 보다 안정성있는 코드를 작성하기 위해 노력합니다.
+                    타입스크립트를 이용해 프로젝트를 진행한 경험이 있습니다.
+                    변수 타입을 지정, 인터페이스를 활용하여 객체를 설계하고 사용해보았습니다.
                   </span>
                 </div>
               </div>
@@ -38,9 +39,9 @@ export const Skill = () => {
                 <img src={React} alt="React" className="sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-24 lg:h-24"/>
                 <div className="sm:p-4 md:p-8 lg:p-12">
                   <span className="text-[#8f98b3] font-semibold sm:text-sm">
-                    리액트의 상태와 생명주기에 대해 이해하고 있습니다.
-                    Styled-Components를 이용해 화면을 꾸밀 수 있습니다.
-                    전반적인 프로젝트를 리액트로 구현하였습니다.
+                    리액트를 주로 사용하여 프로젝트를 진행하였습니다.
+                    클래스, 함수형 컴포넌트의 차이와 개념을 학습하고 이해하고 있습니다.
+                    Webpack과 Babel을 학습하고 프로젝트의 환경 구축을 해보았습니다. 
                   </span>
                 </div>
               </div>
@@ -50,8 +51,9 @@ export const Skill = () => {
                 <img src={NextJS} alt="NextJS" className="sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-24 lg:h-24"/>
                 <div className="sm:p-4 md:p-8 lg:p-12">
                   <span className="text-[#8f98b3] font-semibold sm:text-sm">
-                    NextJS를 사용하여 프로젝틀르 진행한 적이 있습니다. 
-                    SSR과 CSR의 동작과정을 이해하고 있으며, 라우팅 구조를 이해 및 설계하여 사용해보았습니다.
+                    Next.JS를 사용하여 프로젝틀르 진행한 적이 있습니다. 
+                    라우팅 구조를 파악하고 설계하여 사용한 적이 있으며, 
+                    관심을 갖고 학습하고 있습니다. 
                   </span>
                 </div>
               </div>
@@ -62,7 +64,8 @@ export const Skill = () => {
                 <div className="sm:p-4 md:p-8 lg:p-12">
                   <span className="text-[#8f98b3] font-semibold sm:text-sm">
                     NodeJS와 Express를 이용하여 DB와 연동할 수 있으며 웹사이트의 기본 기능인 CRUD가 가능합니다.
-                    RESTful API의 규칙에 맞도록 고민하며 서버를 구현해본 경험이 있습니다.
+                    RESTful API를 학습하여 라우터를 설계하였고,
+                    서버와 클라이언트간의 통신을 단순화하고 사용해보았습니다.
                   </span>
                 </div>
               </div>
@@ -73,8 +76,7 @@ export const Skill = () => {
                 <div className="sm:p-4 md:p-8 lg:p-12">
                   <span className="text-[#8f98b3] font-semibold sm:text-sm">
                     기본적인 데이터 추가, 조회, 수정, 삭제하는 쿼리문을 작성할 수 있습니다.
-                    효율적인 DB schema를 설계하기 위해 노력하며 고민합니다. 
-                    또한 ERD를 학습하며 데이터베이스로 프로젝트를 진행한 경험이 있습니다. 
+                    테이블 형식에 따라 정의하고 설계해보았으며, join문을 통해 데이터를 검색해본 경험이 있습니다.
                   </span>
                 </div>
               </div>
@@ -86,7 +88,6 @@ export const Skill = () => {
                   <span className="text-[#8f98b3] font-semibold sm:text-sm">
                     작업시 Git&Github를 사용합니다.
                     이를 바탕으로 팀원들과 원활하게 코드를 공유하며 프로젝트를 진행한 경험이 있습니다.
-                    학습이 더 필요하지만, GitHub Action을 이용해 간단한 CI/CD를 구축한 적이 있습니다. 
                   </span>
                 </div>
               </div>
