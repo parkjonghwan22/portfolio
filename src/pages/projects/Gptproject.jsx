@@ -11,7 +11,7 @@ export const GptModal = () => {
         </div>
         <div className="mt-10 lg:flex">
             <div>
-                <img src="https://github.com/parkjonghwan22/project3/assets/118948122/9bdd5a0a-e14c-4637-b8a5-ad4e2363f9ba" className="w-full sm:h-[300px] lg:h-[400px]"/>
+                <img src="https://github.com/parkjonghwan22/project3/assets/118948122/01f64a9a-f828-4e00-becd-cdcd544d3014" className="w-full sm:h-[300px] lg:h-[400px]"/>
                 <div className="sm:pt-4 md:pt-6 lg:pt-8">
                     <div className="text-[#E6A15C] font-bold">Period.</div>
                     <div className="text-white font-medium text-sm sm:mt-2 md:mt-3 lg:mt-4">2023/03/23 - 2023/04/14</div>
