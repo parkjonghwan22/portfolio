@@ -1,4 +1,4 @@
-import { Javascript, React, Linux, Typescript, NodeJS, Mysql, Git, EC2 } from "../../common/images";
+import { Javascript, React, Linux, Typescript, NodeJS, Mysql, Git, EC2, NextJS } from "../../common/images";
 
 export const Skill = () => {
   return (
@@ -41,6 +41,17 @@ export const Skill = () => {
                     리액트의 상태와 생명주기에 대해 이해하고 있습니다.
                     Styled-Components를 이용해 화면을 꾸밀 수 있습니다.
                     전반적인 프로젝트를 리액트로 구현하였습니다.
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li className="sm:mx-6 md:mx-12 lg:mx-16 border-dashed border-b border-[#8f98b3]">
+              <div className="flex items-center">
+                <img src={NextJS} alt="NextJS" className="sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-24 lg:h-24"/>
+                <div className="sm:p-4 md:p-8 lg:p-12">
+                  <span className="text-[#8f98b3] font-semibold sm:text-sm">
+                    NextJS를 사용하여 프로젝틀르 진행한 적이 있습니다. 
+                    SSR과 CSR의 동작과정을 이해하고 있으며, 라우팅 구조를 이해 및 설계하여 사용해보았습니다.
                   </span>
                 </div>
               </div>
