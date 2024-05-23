@@ -1,4 +1,4 @@
-import { Javascript, React, Linux, Typescript, NodeJS, Mysql, Git, EC2, NextJS } from "../../common/images";
+import { Javascript, React, Linux, Typescript, NodeJS, Mysql, Git, EC2, NextJS, Expo } from "../../common/images";
 
 export const Skill = () => {
   return (
@@ -42,6 +42,17 @@ export const Skill = () => {
                     리액트를 주로 사용하여 프로젝트를 진행하였습니다.
                     클래스, 함수형 컴포넌트의 차이와 개념을 학습하고 이해하고 있습니다.
                     Webpack과 Babel을 학습하고 프로젝트의 환경 구축을 해보았습니다. 
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li className="sm:mx-6 md:mx-12 lg:mx-16 border-dashed border-b border-[#8f98b3]">
+              <div className="flex items-center">
+                <img src={Expo} alt="Expo" className="sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-24 lg:h-24"/>
+                <div className="sm:p-4 md:p-8 lg:p-12">
+                  <span className="text-[#8f98b3] font-semibold sm:text-sm">
+                    ReactNative를 학습하고자 Expo를 사용하여 Calendar, TodoList 기능이 있는 간단한 모바일 앱을 만들었습니다.
+                    앱 화면 만드는 기본적인 개념 및 문법을 숙지하고 있습니다.
                   </span>
                 </div>
               </div>
