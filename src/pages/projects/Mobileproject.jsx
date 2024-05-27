@@ -29,7 +29,7 @@ export const MobileModal = () => {
                 <div className='sm:mt-6 md:mt-8 lg:pt-8'>
                     <div className="text-[#E6A15C] font-bold">Stack.</div>
                     <div className="text-white font-medium sm:mt-2 md:mt-3 lg:mt-4 sm:flex sm:flex-wrap">
-                        <span className='bg-blue-500 px-3 py-1 rounded-md text-black font-semibold mr-2 mb-2'>React</span>
+                        <span className='bg-blue-500 px-3 py-1 rounded-md text-black font-semibold mr-2 mb-2'>ReactNative</span>
                         <span className='bg-white px-3 py-1 rounded-md text-black font-semibold mr-2 mb-2'>Expo</span>
                     </div>
                 </div>
